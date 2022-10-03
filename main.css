@@ -1,0 +1,645 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden; 
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    width: 90%;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 15%;
+}
+
+header button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 15px 50px;
+    color: hsl(192, 100%, 9%);
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: rgb(149 157 165 / 35%) -7px 7px 24px 0px;
+}
+
+header button:hover {
+    color: hsl(208, 11%, 55%);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+}
+
+section {
+    width: 90%;
+}
+
+.one {
+    width: 100%;
+    margin: 3rem 0;
+    margin-top: 0%;
+    background-color: hsl(193, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one .container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    margin: 2rem 0;
+}
+
+.one .container .text-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.one .container .text-side h1 {
+    text-align: start;
+    font-size: 2em;
+    width: 70%;
+    color: hsl(192, 100%, 9%);
+}
+
+.one .container .text-side p {
+    text-align: start;
+    font-size: 0.84em;
+    width: 70%;
+    color: hsl(192, 100%, 9%);
+    margin-top: 0;
+}
+
+.one .container .btn {
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 2rem;
+    padding: 15px 55px;
+    font-weight: 700;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 30%) -4px 4px 18px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.one .container .btn:focus {
+    background-color: hsl(322, 100%, 66%);
+}
+
+.one .container .btn:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+.one .container img {
+    width: 50%;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    box-shadow: rgb(149 157 165 / 35%) -7px 7px 24px 0px;
+    border-radius: 10px;
+}
+
+.two .text {
+    width: 50%;
+    margin: 4rem;
+}
+
+.two .text h3 {
+    margin-bottom: 1rem;
+    color: hsl(192, 100%, 9%);
+    font-size: 2em;
+}
+
+.two .text p {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+}
+
+.two img {
+    margin: 4rem;
+    width: 50%;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+    box-shadow: rgb(149 157 165 / 35%) -7px 7px 24px 0px;
+    border-radius: 10px;
+}
+
+.three .text {
+    width: 50%;
+    margin-left: 4rem;
+    margin: 4rem;
+}
+
+.three .text h3 {
+    margin-bottom: 1rem;
+    color: hsl(192, 100%, 9%);
+    font-size: 2em;
+}
+
+.three .text p {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+}
+
+.three img {
+    width: 50%;
+    margin: 4rem;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+    box-shadow: rgb(149 157 165 / 35%) -7px 7px 24px 0px;
+    border-radius: 10px;
+    margin-bottom: 20rem;
+    margin-top: 0;
+}
+
+.four .text {
+    width: 50%;
+    margin: 4rem;
+}
+
+.four .text h3 {
+    margin-bottom: 1rem;
+    color: hsl(192, 100%, 9%);
+    font-size: 2em;
+}
+
+.four .text p {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+}
+
+.four img {
+    width: 50%;
+    margin: 4rem;
+}
+
+.five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+    background-color: white;
+    position: absolute;
+    bottom: -10rem;
+    box-shadow: hsla(0, 0%, 0%, 0.35) -7px 7px 24px 0px;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 60%;
+}
+
+.five .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.five .container h2 {
+    color: hsl(192, 100%, 9%);
+    font-size: 2em;
+}
+
+.five .container .btn {
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 2rem;
+    padding: 20px 75px;
+    font-weight: 700;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 30%) -7px 7px 24px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+.five .container .btn:focus {
+    background-color: hsl(322, 100%, 66%);
+}
+
+.five .container .btn:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 90%;
+    margin: 5rem 0;
+    margin-top: 10rem;
+}
+
+.foot .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35%;
+}
+
+.foot .logo #image {
+    filter: invert(100%) sepia(92%) saturate(7339%) hue-rotate(256deg) brightness(200%) contrast(200%);
+    width: 40%;
+    margin-bottom: 2rem;
+}
+
+.foot .logo span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.foot .logo span:first-of-type {
+    margin-bottom: 1.5rem;
+}
+.foot .logo span:nth-last-of-type(2) {
+    margin-bottom: 1rem;
+}
+
+.foot .logo span img {
+    width: 5%;
+    margin-right: 15px;
+}
+
+.foot .links-one ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.foot .links-one ul li:nth-of-type(2) {
+    margin: 1.5rem 0;
+}
+
+.foot .links-one ul li:hover {
+    text-decoration: underline;
+}
+
+.foot .links-two ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.foot .links-two ul li:nth-of-type(2) {
+    margin: 1.5rem 0;
+}
+
+.foot .links-two ul li:hover {
+    text-decoration: underline;
+}
+
+.foot .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 17rem;
+    justify-content: space-between;
+}
+
+.foot .right .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.foot .right .social img {
+    filter: invert(100%) sepia(89%) saturate(7339%) hue-rotate(-131deg) brightness(500%) contrast(224%);
+    width: 35%;
+    cursor: pointer;
+}
+
+.foot .right .social img:nth-of-type(2) {
+    margin: 0 1.5rem;
+}
+
+.foot .right .copy span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@media (max-width: 767px) {
+    body {
+        background-image: url(images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header img {
+        width: 35%;
+    }
+
+    header button {
+        padding: 6px 25px;
+    }
+
+    main {
+        max-width: 100%;
+        min-width:375px;
+    }
+
+    .one .container {
+        flex-direction: column;
+    }
+
+    .one .container .text-side {
+        width: 100%;
+        align-items: center;
+    }
+
+    .one .container .text-side h1 {
+        font-size: 1.7em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .one .container .text-side p {
+        width: 80%;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+
+    .one .container .btn {
+        padding: 12px 60px;
+        margin: 1rem 0;
+        font-size: 12px;
+    }
+
+    .one .container img {
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0rem;
+    }
+
+    .two img {
+        width: 90%;
+        margin: 0rem;
+        margin-top: 3rem;
+    }
+
+    .two .text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        margin-top: 0;
+    }
+
+    .two .text h3 {
+        color: hsl(192, 100%, 9%);
+        font-size: 1.5em;
+        margin-top: 3rem;
+    }
+
+    .two .text p {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    .three {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+
+    .three img {
+        width: 90%;
+        margin: 0rem;
+        margin-top: 3rem;
+    }
+
+    .three .text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin: 2rem;
+        margin-top: 0;
+    }
+
+    .three .text h3 {
+        color: hsl(192, 100%, 9%);
+        font-size: 1.5em;
+        margin-top: 3rem;
+    }
+
+    .three .text p {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    .four {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10rem;
+    }
+
+    .four img {
+        width: 90%;
+        margin: 0rem;
+        margin-top: 3rem;
+    }
+
+    .four .text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        margin-top: 0;
+    }
+
+    .four .text h3 {
+        color: hsl(192, 100%, 9%);
+        font-size: 1.5em;
+        margin-top: 3rem;
+    }
+
+    .four .text p {
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    .five {
+        width: 73%;
+        padding: 1rem 2rem;
+    }
+
+    .five .container h2 {
+        font-size: 1em;
+    }
+
+    .five .container .btn {
+        padding: 12px 45px;
+        margin: 1rem 0;
+        font-size: 12px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .foot .logo {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .foot .logo #image {
+        width: 50%;
+    }
+
+    .foot .logo span {
+        font-size: 0.85em;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .foot .links-one ul li {
+        font-size: 14px;
+    }
+
+    .foot .links-two ul li {
+        font-size: 14px;
+    }
+
+    .foot .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .foot .right .social {
+        margin: 2rem 0;
+        margin-top: 2rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .foot .right .social img {
+        width: 7%;
+    }
+
+    .foot .right .copy span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
